@@ -42,6 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-img     {
-    height:100px;
+.proj   {
+    height: 200px;
 }
+
