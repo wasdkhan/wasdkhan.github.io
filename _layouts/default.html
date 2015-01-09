@@ -6,14 +6,22 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
+			<center><nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 	        		<li><a href="/projects">Projects</a></li>
 	        		<li><a href="/software">Software</a></li>
 	        		<li><a href="/math">Math</a></li>
 	    		</ul>
-			</nav>
+			</nav></center>
+			<script>
+				for (var i = 0; i < document.links.length; i++) {
+					    if (document.links[i].href == document.URL) {
+					        document.links[i].className = 'active';
+					    }
+					    else {document.links[0].className = 'active';}
+				}
+			</script>
 			<div class="container">
 			
 			{{ content }}

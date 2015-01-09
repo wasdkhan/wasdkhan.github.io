@@ -19,6 +19,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a.active {background:red;}
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
