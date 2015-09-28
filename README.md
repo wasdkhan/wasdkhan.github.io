@@ -1,4 +1,3 @@
-Personal Website
+waseemkhan.me
 
-waseemkhan96.github.io
-
+Currently under construction. 
