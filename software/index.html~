@@ -1,0 +1,18 @@
+---
+layout: default
+title: Software
+---
+<div class="software">
+    <table>
+  		<tr>
+  			<td><div style="float:left">
+          <a href="https://www.hackerleague.org/hackathons/hackru-fall-2014/hacks/charit-dot-me">
+          <img class="soft" src="img/charitme.png"/></a>
+        </div></td>
+  			<td><div style="width:500px;float:left;font-family:Arial">
+  			<strong>Charit.me:	<a href="https://github.com/waseemkhan96/charitme">(github)</a> </strong> 
+        <p>Upvote charities to send more ad revenue to your favorite charities. Built at HackRU Fall 2014 with Django and SQLite. </p>
+        </div></td>
+  		</tr>
+	</table>
+</div>
