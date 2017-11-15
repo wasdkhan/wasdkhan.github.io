@@ -1,0 +1,63 @@
+---
+layout: default
+title: Software
+---
+<div class="software">
+    <table>
+
+	    <tr>
+		    <td><div style="float:left">
+          <img class="soft" src="img/wikiart.gif"/></a>
+        </div></td>
+  			<td><div style="width:500px;float:left;font-family:Arial">
+  			<strong>WikiArt InfoGAN: (<a href="https://github.com/waseemkhan96/wikiart-infogan">code</a>) </strong> 
+        <p>Independent Study Project, using a Generative Adversarial Neural Netowrk to train to generate paintings.</p>
+        </div></td>
+  		</tr>
+
+	    <tr>
+		    <td><div style="float:left">
+          <img class="soft" src="img/pacbot.jpg"/></a>
+          <img class="soft" src="img/pacbot.gif"/></a>
+        </div></td>
+  			<td><div style="width:500px;float:left;font-family:Arial">
+  			<strong>Harvard Pacbot:	(<a href="http://ece2.rutgers.edu/node/833">press</a>) </strong> 
+        <p>Maze Solving Robot for PacMan Game. Won first prize at Harvard competition. </p>
+        </div></td>
+  		</tr>
+
+
+	    <tr>
+		    <td><div style="float:left">
+          <img class="soft" src="img/context-cam.jpg"/></a>
+          <img class="soft" src="img/context-cam.gif"/></a>
+        </div></td>
+  			<td><div style="width:500px;float:left;font-family:Arial">
+					<strong>ContextCam:	(<a href="https://devpost.com/software/contextcam">devpost</a>,<a href="https://indico.io/blog/inspiring-hacks-contextcam/">press</a>) </strong> 
+        <p>Takes pictures, recognizes object and produces an audio description for blind people. Won top 10 and Hardware Hack Prize at HackPrinceton. </p>
+        </div></td>
+  		</tr>
+
+
+	    <tr>
+		    <td><div style="float:left">
+          <img class="soft" src="img/nest.gif"/></a>
+        </div></td>
+  			<td><div style="width:500px;float:left;font-family:Arial">
+  			<strong>Nest Thermostat Speech Control:	(<a href="https://blog.scriptr.io/hacking-nest-with-voice-control-at-hackru/">press</a>) </strong> 
+        <p>Identifies Intent in Speech to change thermostat temperatures. Won HackRU X Scriptr.IO API Prize. </p>
+        </div></td>
+  		</tr>
+
+
+	    <tr>
+		    <td><div style="float:left">
+          <img class="soft" src="img/charitme.png"/></a>
+        </div></td>
+  			<td><div style="width:500px;float:left;font-family:Arial">
+  			<strong>Charit.me: (<a href="https://github.com/waseemkhan96/charitme">code</a>) </strong> 
+        <p>Upvote charities to send more ad revenue to your favorite charities. Built at HackRU Fall 2014 with Django and SQLite. </p>
+        </div></td>
+  		</tr>
+	</table>
+</div>
