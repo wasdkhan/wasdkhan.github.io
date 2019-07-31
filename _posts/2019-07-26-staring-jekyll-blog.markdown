@@ -68,7 +68,7 @@ url: "https://username.github.io"
 ```bash
 $ bundle exec jekyll serve
 ```
-Preview your site locally at [`localhost:4000`](http://localhost:4000)
+Preview your site locally at [`localhost:4000`](localhost:4000)
 
 9. Enter the _posts folder, create a file with the naming scheme YYYY-MM-DD-title-with-dashes.markdown, and edit it in a text editor:
 ```bash
@@ -85,7 +85,7 @@ Now, we write a simple markdown blog post, as shown:
 
     Markdown is *cool* 8-)
     ```
-Save the file and refresh [`localhost:4000`](http://localhost:4000) to see your new post appearing on the homepage!
+Save the file and refresh [`localhost:4000`](localhost:4000) to see your new post appearing on the homepage!
 
 10. Add all your changes to a commit and push to Github:
 ```bash
