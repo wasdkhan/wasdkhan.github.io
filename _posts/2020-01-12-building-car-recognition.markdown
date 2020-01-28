@@ -16,7 +16,7 @@ The most popular car image classification dataset, the [Stanford Cars Dataset](h
 
 A larger dataset, the Vehicle Make and Model Recognition Dataset, or [VMMRdb](http://vmmrdb.cecsresearch.org/) its acronym, has a subset of 246,173 images of 3036 classes (minimum of 20 images/class) and was released in 2017. This serves as a better starting point in providing more data to train classifier to identify subtle changes between models. This specific type of problem is referred to as [Fine-Grained Image Classification](https://paperswithcode.com/task/fine-grained-image-classification/latest), and a pre-trained ResNet-50 model is provided by VMMRdb.
 
-<center><img src="/assets/vmmrAmbiguity.png" width="75%"></center>
+<center><img src="/assets/building-car-recognition-part-1/vmmrAmbiguity.png" width="75%"></center>
 
 ### Feature Extraction + Approximate Nearest Neighbors
 
@@ -24,13 +24,13 @@ The provided VMMRdb trained model only classifies 3036 models, to have it genera
 
 However, in such a large feature space (2048 dimensions) and dataset (~300k points), nearest neighbors is too slow, so we opt for [Approximate Nearest Neighbors](https://en.wikipedia.org/wiki/Nearest_neighbor_search#Approximate_nearest_neighbor) or ANN for short:
 
-<center><img src="/assets/approximate-nearest-neighbor.jpeg" width="50%"></center>
+<center><img src="/assets/building-car-recognition-part-1/approximate-nearest-neighbor.jpeg" width="50%"></center>
 
 ANN is how fast similarity search is done for anything that can have its features extracted (images, video, music). We use the Facebook library, [faiss](https://github.com/facebookresearch/faiss), along with PyTorch to extract features from an image and classify based on its approximate nearest neighbor image's class.
 
 The neat part about this is that this will give us the k-closest looking images to our input image as well, a form of reverse image search. For example, feeding in this picture of a Honda-Pilot 2011 model results in the following results:
 
-<center><img src="/assets/honda-pilot-2011.jpg" width="50%"><img src="/assets/faiss.png" height="100%"></center>
+<center><img src="/assets/building-car-recognition-part-1/honda-pilot-2011.jpg" width="50%"><img src="/assets/building-car-recognition-part-1/faiss.png" height="100%"></center>
 
 As can be clearly seen, the retrieved images are all Honda Pilot's from the year 2010 or 2011 and viewed from the same angle (front). This is most likely due to the embedding (2048-feature vector) encoding this information.
 
