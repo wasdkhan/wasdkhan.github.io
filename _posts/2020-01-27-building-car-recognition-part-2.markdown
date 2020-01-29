@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Building a Car Model Classifier (Part 2)"
-excerpt: "Web scraping to build an Image Dataset and Training a Model"
+excerpt: "Web scraping to build an Image Dataset and Training a Model."
 date:   2020-01-27 2:30:00 -0400
 ---
 
